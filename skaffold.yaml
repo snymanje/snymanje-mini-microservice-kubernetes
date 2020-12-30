@@ -24,7 +24,7 @@ build:
         manual:
           - src: '*.js'
             dest: .   
-    - image: snymanje/eventbus
+    - image: snymanje/event-bus
       context: eventbus
       docker:
         dockerfile: Dockerfile
